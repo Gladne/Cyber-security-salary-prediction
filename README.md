@@ -13,7 +13,7 @@ The objective is to explore trends in the cybersecurity workforce and develop a 
 - Model comparison and final selection
 
 # Dataset
-The dataset contains cybersecurity job and salary information, including:
+The [Cyber_salaries](https://www.kaggle.com/datasets/whenamancodes/infoseccyber-security-salaries/data) dataset contains cybersecurity job and salary information, including:
 - Job role / title
 - Experience level
 - Company size
