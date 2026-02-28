@@ -31,40 +31,30 @@ EDA was performed to understand:
 # Machine Learning Models
 The following regression models were trained and evaluated:
 ### Random Forest Regressor
-- RMSE: 0.313
-- MAE: 0.071
-- R² Score: 0.786
+- RMSE: 41323.38
+- MAE: 30934.92
+- R² Score: 0.349
 
 ### Gradient Boosting Regressor
-- RMSE: 0.263
-- MAE: 0.056
-- R² Score: 0.849
+- RMSE: 39077.72
+- MAE: 29125.05
+- R² Score: 0.418
 
 ### XGBoost Regressor
-- RMSE: 0.351
-- MAE: 0.171
-- R² Score: 0.732
+- RMSE: 37800.98
+- MAE:  28230.66
+- R² Score:  0.455
 
 ### Hyperparameter Tuning
 Hyperparameter tuning was applied to improve the Gradient Boosting model using RandomizedSearchCV. </br>
 __Best Parameters:__
 - n_estimators: 400
-- learning_rate: 0.05
-- max_depth: 3
-- min_samples_split: 5
-- min_samples_leaf: 1
+- learning_rate: 0.01
+- max_depth: 4
+- min_child_weight: 3
+- colsample_bytree: 0.85
 
-__Tuned Model Performance:__
-- RMSE: 0.261
-- MAE: 0.055
-
-The tuned Gradient Boosting model achieved the best performance among all models.
-
-# Final Conclusion
-
-The Gradient Boosting Regressor demonstrated the strongest predictive performance with the lowest error and highest R² score. 
-Hyperparameter tuning further improved the model, confirming that optimized parameters enhance prediction accuracy. 
-Therefore, the tuned Gradient Boosting model was selected as the final model for salary prediction.
+The tuned XGBoost model performed better than other models ('Random Forest' and 'Gradient Boosting').
 
 ### Technologies Used
 Python, Pandas, NumPy, Matplotlib / Seaborn, Scikit-learn, XGBoost
