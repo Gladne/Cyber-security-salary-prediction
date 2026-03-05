@@ -59,6 +59,9 @@ The tuned XGBoost model performed better than other models ('Random Forest' and 
 ### Technologies Used
 Python, Pandas, NumPy, Matplotlib / Seaborn, Scikit-learn, XGBoost
 
+## How to test the App
+https://cyber-security-salary-prediction-version-1.streamlit.app/
+
 ## How to Run the Project
 git clone https://github.com/your-username/cybersecurity-salary-prediction.git </br>
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost </br>
