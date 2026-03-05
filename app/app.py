@@ -4,12 +4,12 @@ import numpy as np
 import joblib
 
 # Load models, columns and encoders
-model = joblib.load("/models/xgb_model.pkl")
-features = joblib.load("/models/model_columns.pkl")
-exp_encoder = joblib.load("/models/experience_encoder.pkl")
-emptype_encoder = joblib.load("/models/emptype_encoder.pkl")
-compsize_encoder = joblib.load("/models/compsize_encoder.pkl")
-job_title_encoder = joblib.load("/models/job_title_encoder.pkl")
+model = joblib.load("../models/xgb_model.pkl")
+features = joblib.load("../models/model_columns.pkl")
+exp_encoder = joblib.load("../models/experience_encoder.pkl")
+emptype_encoder = joblib.load("../models/emptype_encoder.pkl")
+compsize_encoder = joblib.load("../models/compsize_encoder.pkl")
+job_title_encoder = joblib.load("../models/job_title_encoder.pkl")
 
 st.set_page_config(page_title="Cyber Salary Predictor", layout="centered")
 st.title("Cyber Security Salary Prediction")
