@@ -100,11 +100,11 @@ with st.form("Prediction form"):
         company_size = st.selectbox("Company Size", ['S', 'M', 'L'])
         employee_residence = st.selectbox(
             "Employee Residence",
-            ['Asia', 'Europe', 'North America', 'South America', 'Oceania']
+            ['Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania']
             )
         company_location = st.selectbox(
             "Company Location",
-            ['Asia', 'Europe', 'North America', 'South America', 'Oceania', 'Other']
+            ['Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania', 'Other']
             )
     
     submitted = st.form_submit_button("Predict Salary")       
