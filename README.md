@@ -59,7 +59,6 @@ cd Cyber-security-salary-prediction
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
 ---
 
 ## How It Works
@@ -68,14 +67,3 @@ streamlit run app.py
 2. Inputs are encoded and aligned with training features
 3. Model predicts log salary
 4. Final salary is converted back and displayed
-
-Example implementation:
----
-
-## Project Value
-
-* Demonstrates end-to-end ML workflow
-* Shows deployment of ML models in real applications
-* Highlights feature engineering and problem-solving skills
-
----
