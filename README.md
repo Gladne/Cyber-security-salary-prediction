@@ -62,7 +62,7 @@ streamlit run app.py
 
 ---
 
-## 💡 How It Works
+## How It Works
 
 1. User inputs job details
 2. Inputs are encoded and aligned with training features
